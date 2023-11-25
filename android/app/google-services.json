@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "233745442938",
+    "project_id": "doctorapp-807e7",
+    "storage_bucket": "doctorapp-807e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233745442938:android:1f07638fadf49dd01df3c3",
+        "android_client_info": {
+          "package_name": "code.rexen.doctor_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWcRJ_ELdtgUlCYOrI7znb7MxtH4YKfug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
