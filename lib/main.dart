@@ -1,3 +1,5 @@
+import 'package:doctor_app/src/config/routes/app_route_manager.dart';
+import 'package:doctor_app/src/config/routes/app_routes_name.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 
@@ -9,9 +11,10 @@ class DoctorApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const GetMaterialApp(
+    return  GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      
+      initialRoute: AppRouteNames.splashScreenRouteName,
+      getPages: AppRouteManager.instance().appGetPages,
     );
   }
 }
